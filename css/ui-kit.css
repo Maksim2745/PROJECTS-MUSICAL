@@ -1,0 +1,33 @@
+:root {
+  --text-c:#212529;
+  --secondary-c: #FF0000;
+  --accent-c:#FF5004;
+  --background-c:#FDFDFD;
+}
+
+body {
+  background-color: var(--background-c);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width:1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  font-family: "ANTONIO", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  line-height:100%;
+  color: var(--text-c);
+  scroll-behavior: smooth;
+  letter-spacing: -4%;
+}
+
+.ui-button {}
