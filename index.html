@@ -4,11 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/main.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
-  <header class="header">
-    
+
+      <!-- Шапки сайта -->
+      <header class="header container">
+        <a class="header__logo" href="/"><img src="img/logo.svg" alt="logo"></a>
+        <hr/>
+
+        <!--Список с информации-->
+        <ul class="header__info">
+          <li class="header__info-item">
+            <span>TICKETS ON SALE:</span>
+            <h4>1240</h4>
+          </li>
+          <li class="header__info-item">
+            <span>FESTIVAL STARTING AT:</span>
+            <h4>12 DAYS</h4>
+          </li>
+          <li class="header__info-item">
+            <span>FESTIVAL STARTING AT:</span>
+            <h4>12 DAYS</h4>
+          </li>
+        </ul>
+        <hr/>
+
+        <!-- Навигация шапки-->
+        <nav>
+          <ul class="header__nav">
+            <li class="header__nav-item">
+              <a href="#about">ABOUT</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#timeline">TIMELINE</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#faq">FAQ</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#contacts">CONTACTS</a>
+            </li>
+          </ul>
+        </nav>
+        <hr/>
+
+        <button class="ui-button ui-button--primary ui-button--small">
+          get ticket
+          <img src="img/arrow.svg">
+        </button>
+      </header>
+      <main class="main">
+        <div class="promo container">
+
+          <!-- текст промо блока -->
+          <div class="promo-text">
+            <h2>14 June — 14 july <span class="promo-text__date-year">2024</span></h2>
+            <h1>The musical journey STARTS<span class="promo-text__title-additional"> heEEEEEre!</span></h1>
+          </div>
+
+          <!-- кнопки промо блока -->
+          <div class="promo-button__wrapper">
+            <button class="ui-button ui-button--primary ">
+              <h3>get ticket</h3>
+              <img src="img/arrow.svg">
+            </button>
+            <button class="ui-button ui-button--secondary">
+              <h3>CHECK PROGRAM</h3>
+              <img src="img/arrow.svg">
+            </button>
+          </div>
+
+        </div>
+      </main>
+      <footer></footer>
+
 </body>
 </html>
